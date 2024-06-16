@@ -18,13 +18,12 @@ namespace CommandApi.Controllers
     {
         private readonly ICommandApiRepo _repository;
 
-        // private readonly MockCommandApiRepo _repository = new MockCommandApiRepo();
-
         public CommandsController(ICommandApiRepo repository)
         {
             _repository = repository;
         }
 
+        // private readonly MockCommandApiRepo _repository = new MockCommandApiRepo();
         // GET: api/commands
         [HttpGet]
         public ActionResult <IEnumerable<Command>> GetAllCommands()
