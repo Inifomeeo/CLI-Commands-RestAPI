@@ -32,7 +32,6 @@ namespace CommandApi.Controllers
         public ActionResult <Command> GetCommandById(long id)
         {
             var commandItem = _repository.GetCommandByID(id);
-
             return Ok(commandItem);
         }
 
