@@ -6,7 +6,7 @@ namespace CommandApi.Data
 {
     public class MockCommandApiRepo : ICommandApiRepo
     {
-        public IEnumerable<Command> GetAppCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
             {
