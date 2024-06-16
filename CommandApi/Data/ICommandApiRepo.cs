@@ -1,6 +1,6 @@
-using CommandApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using CommandApi.Models;
 
 namespace CommandApi.Data
 {
