@@ -1,8 +1,14 @@
+using System.Runtime.CompilerServices;
 using CommandApi.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<CommandApiContext>(opt => opt.UseSqlServer
+    (builder.Configuration.GetConnectionString("CommandConnection")));
+
 builder.Services.AddScoped<ICommandApiRepo, MockCommandApiRepo>();
 
 builder.Services.AddControllers();
