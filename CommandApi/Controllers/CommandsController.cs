@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using CommandApi.Data;
 using AutoMapper;
+using CommandApi.Dtos;
 
 namespace CommandApi.Controllers
 {
@@ -37,12 +38,12 @@ namespace CommandApi.Controllers
         // GET: api/commands
         // <snippet_GetByID>
         [HttpGet("{id}")]
-        public ActionResult <Command> GetCommandById(long id)
+        public ActionResult <CommandReadDto> GetCommandById(long id)
         {
             var commandItem = _repository.GetCommandByID(id);
             if (commandItem != null)
             {
-                return Ok(commandItem);
+                return Ok(_mapper.Map<CommandReadDto>(commandItem));
             }
             return NotFound();
         }
