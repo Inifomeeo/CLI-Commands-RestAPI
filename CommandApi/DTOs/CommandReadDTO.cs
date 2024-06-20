@@ -1,6 +1,6 @@
-namespace CommandApi.DTOs;
+namespace CommandApi.Dto;
 
-public class CommandReadDTO
+public class CommandReadDto
 {
     public long Id { get; set; }
 
