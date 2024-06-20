@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CommandApiContext>(opt => opt.UseSqlServer
     (builder.Configuration.GetConnectionString("CommandConnection")));
 
-builder.Services.AddScoped<ICommandApiRepo, MockCommandApiRepo>();
+// builder.Services.AddScoped<ICommandApiRepo, MockCommandApiRepo>();
+builder.Services.AddScoped<ICommandApiRepo, SqlCommandApiRepo>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
