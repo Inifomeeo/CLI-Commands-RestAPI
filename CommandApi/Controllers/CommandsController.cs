@@ -2,13 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using CommandApi.Models;
 using Microsoft.AspNetCore.Mvc;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using CommandApi.Data;
+using AutoMapper;
 
 namespace CommandApi.Controllers
 {
@@ -17,10 +17,12 @@ namespace CommandApi.Controllers
     public class CommandsController : ControllerBase
     {
         private readonly ICommandApiRepo _repository;
+        private readonly IMapper _mapper;
 
-        public CommandsController(ICommandApiRepo repository)
+        public CommandsController(ICommandApiRepo repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         // GET: api/commands
