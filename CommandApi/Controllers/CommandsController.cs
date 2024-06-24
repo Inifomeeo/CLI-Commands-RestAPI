@@ -84,5 +84,21 @@ namespace CommandApi.Controllers
         }
         // <snippet_Update>
 
+        // DELETE: api/TodoItems/
+        public ActionResult DeleteCommand(long id)
+        {
+            var commandModelFromRepo = _repository.GetCommandByID(id);
+
+            if (commandModelFromRepo == null)
+            {
+                return NotFound();
+            }
+
+            _repository.DeleteCommand(commandModelFromRepo);
+            _repository.SaveChanges();
+
+            return NoContent();
+        }
+
     }
 }
