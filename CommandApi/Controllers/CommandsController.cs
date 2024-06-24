@@ -116,6 +116,7 @@ namespace CommandApi.Controllers
         // <snippet_Update>
 
         // DELETE: api/TodoItems/
+        [HttpDelete("{id}")]
         public ActionResult DeleteCommand(long id)
         {
             var commandModelFromRepo = _repository.GetCommandByID(id);
