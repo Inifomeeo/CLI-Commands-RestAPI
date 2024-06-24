@@ -1,1 +1,1 @@
-# CLI Commands REST API ASP.NET Core MVC
+# CLI Commands REST API ASP.NET Core
