@@ -1,1 +1,1 @@
-# CLI Commands REST API ASP.NET Core
+# CLI Commands REST API
