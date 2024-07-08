@@ -4736,11 +4736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inifome\\Desktop\\ASP.NET-Core-MVC-Rest-API-3\\CommandApi\\CommandApi.csproj",
+      "projectUniqueName": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj",
       "projectName": "CommandApi",
-      "projectPath": "C:\\Users\\Inifome\\Desktop\\ASP.NET-Core-MVC-Rest-API-3\\CommandApi\\CommandApi.csproj",
+      "projectPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj",
       "packagesPath": "C:\\Users\\Inifome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inifome\\Desktop\\ASP.NET-Core-MVC-Rest-API-3\\CommandApi\\obj\\",
+      "outputPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Inifome\\AppData\\Roaming\\NuGet\\NuGet.Config"
