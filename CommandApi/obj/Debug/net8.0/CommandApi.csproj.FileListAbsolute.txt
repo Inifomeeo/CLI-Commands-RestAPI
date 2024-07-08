@@ -286,3 +286,4 @@ C:\Users\Inifome\Desktop\CLI-Commands-RestAPI\CommandApi\obj\Debug\net8.0\refint
 C:\Users\Inifome\Desktop\CLI-Commands-RestAPI\CommandApi\obj\Debug\net8.0\CommandApi.pdb
 C:\Users\Inifome\Desktop\CLI-Commands-RestAPI\CommandApi\obj\Debug\net8.0\CommandApi.genruntimeconfig.cache
 C:\Users\Inifome\Desktop\CLI-Commands-RestAPI\CommandApi\obj\Debug\net8.0\ref\CommandApi.dll
+C:\Users\Inifome\Desktop\CLI-Commands-RestAPI\CommandApi\bin\Debug\net8.0\CommandApi.staticwebassets.runtime.json
