@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "79btAHndops=",
+  "dgSpecHash": "Xy6styItNK0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Inifome\\Desktop\\ASP.NET-Core-MVC-Rest-API-3\\CommandApi\\CommandApi.csproj",
+  "projectFilePath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Inifome\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Inifome\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
