@@ -115,7 +115,7 @@ namespace CommandApi.Controllers
         }
         // <snippet_Update>
 
-        // DELETE: api/TodoItems/{id}
+        // DELETE: api/commands/{id}
         [HttpDelete("{id}")]
         public ActionResult DeleteCommand(long id)
         {
