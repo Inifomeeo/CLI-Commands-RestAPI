@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj": {}
+    "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI-1\\CommandApi\\CommandApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj": {
+    "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI-1\\CommandApi\\CommandApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj",
+        "projectUniqueName": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI-1\\CommandApi\\CommandApi.csproj",
         "projectName": "CommandApi",
-        "projectPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\CommandApi.csproj",
+        "projectPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI-1\\CommandApi\\CommandApi.csproj",
         "packagesPath": "C:\\Users\\Inifome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI\\CommandApi\\obj\\",
+        "outputPath": "C:\\Users\\Inifome\\Desktop\\CLI-Commands-RestAPI-1\\CommandApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Inifome\\AppData\\Roaming\\NuGet\\NuGet.Config"
